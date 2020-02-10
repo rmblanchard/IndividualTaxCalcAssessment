@@ -7562,3 +7562,1141 @@ WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
 ===> 2020-02-10 14:17:14.583 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.TaxCalculatorController.Create (IndividualTaxCalcAPI.Api)" in 8181.7168ms
 ===> 2020-02-10 14:17:15.049 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
 ===> 2020-02-10 14:17:15.056 +02:00 [Information] Request finished in 8678.7942ms 200 application/json; charset=utf-8
+===> 2020-02-10 14:46:37.381 +02:00 [Information] Starting web host
+===> 2020-02-10 14:46:37.679 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-10 14:46:37.728 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-10 14:46:37.778 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-10 14:46:37.795 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-10 14:46:37.803 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-10 14:46:37.823 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-10 14:46:37.893 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 14:46:37.903 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-10 14:46:37.907 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 14:46:37.919 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-10 14:46:37.924 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-10 14:46:37.930 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-10 14:46:37.932 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-10 14:46:37.990 +02:00 [Information] Startup::Configure
+===> 2020-02-10 14:46:38.278 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-10 14:46:38.315 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-10 14:46:38.972 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-10 14:46:39.169 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-10 14:46:41.876 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-10 14:46:42.397 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:42.913 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:42.926 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-10 14:46:42.950 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (9ms).
+===> 2020-02-10 14:46:42.982 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 14:46:43.063 +02:00 [Information] Executed DbCommand ("88"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 14:46:43.070 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.086 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.093 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-10 14:46:43.093 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-10 14:46:43.093 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.096 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.098 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 14:46:43.154 +02:00 [Information] Executed DbCommand ("56"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 14:46:43.154 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.156 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.291 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 14:46:43.291 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 14:46:43.291 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.291 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.293 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 14:46:43.300 +02:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 14:46:43.307 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 14:46:43.307 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.307 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.857 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 14:46:43.915 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 14:46:43.915 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 14:46:43.915 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.916 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.916 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 14:46:43.919 +02:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 14:46:43.926 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 14:46:43.927 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.927 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.932 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 14:46:43.933 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 14:46:43.933 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 14:46:43.933 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.934 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.934 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 14:46:43.938 +02:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 14:46:43.938 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 14:46:43.938 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.938 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 14:46:43.941 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-10 14:46:44.055 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-10 14:46:44.127 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-10 14:46:44.134 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-10 14:46:44.267 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 14:46:44.525 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-10 14:46:44.600 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-10 14:46:44.603 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-10 14:46:44.603 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-10 14:46:44.604 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-10 14:46:44.604 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-10 14:46:44.605 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-10 14:46:44.609 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 14:46:44.610 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 14:46:44.626 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-10 14:46:44.689 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 72.3825ms
+===> 2020-02-10 14:46:44.701 +02:00 [Information] Request finished in 584.7148ms 200 text/html
+===> 2020-02-10 14:46:46.097 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-10 14:46:46.104 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 14:46:46.255 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 14:46:46.308 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-10 14:46:46.309 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 14:46:46.314 +02:00 [Information] Request finished in 219.8591ms 404 
+===> 2020-02-10 19:35:18.432 +02:00 [Information] Starting web host
+===> 2020-02-10 19:35:18.528 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-10 19:35:18.551 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-10 19:35:18.578 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-10 19:35:18.582 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-10 19:35:18.585 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-10 19:35:18.592 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-10 19:35:18.624 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 19:35:18.628 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-10 19:35:18.629 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 19:35:18.633 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-10 19:35:18.635 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-10 19:35:18.639 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-10 19:35:18.640 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-10 19:35:18.741 +02:00 [Information] Startup::Configure
+===> 2020-02-10 19:35:18.864 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-10 19:35:18.876 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-10 19:35:19.037 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-10 19:35:19.115 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-10 19:35:19.865 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-10 19:35:20.093 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.562 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.572 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-10 19:35:20.586 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (5ms).
+===> 2020-02-10 19:35:20.604 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 19:35:20.656 +02:00 [Information] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 19:35:20.664 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.674 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.680 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-10 19:35:20.680 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-10 19:35:20.680 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.684 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.686 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 19:35:20.733 +02:00 [Information] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 19:35:20.733 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.736 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.791 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 19:35:20.792 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 19:35:20.792 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.792 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.794 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 19:35:20.802 +02:00 [Information] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 19:35:20.807 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 19:35:20.808 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:20.808 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:21.190 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 19:35:21.232 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 19:35:21.232 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 19:35:21.233 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:21.233 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:21.233 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 19:35:21.237 +02:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 19:35:21.242 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 19:35:21.243 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:21.243 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:21.248 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 19:35:21.248 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 19:35:21.249 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 19:35:21.249 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:21.249 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:21.249 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 19:35:21.253 +02:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 19:35:21.253 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 19:35:21.253 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:21.253 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 19:35:21.256 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-10 19:35:21.350 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-10 19:35:21.412 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-10 19:35:21.417 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-10 19:35:21.884 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 19:35:22.120 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-10 19:35:22.215 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-10 19:35:22.217 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-10 19:35:22.218 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-10 19:35:22.219 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-10 19:35:22.219 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-10 19:35:22.220 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-10 19:35:22.224 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 19:35:22.226 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 19:35:22.254 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-10 19:35:22.310 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 80.453ms
+===> 2020-02-10 19:35:22.319 +02:00 [Information] Request finished in 913.544ms 200 text/html
+===> 2020-02-10 19:35:25.747 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-10 19:35:25.759 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 19:35:25.761 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 19:35:25.785 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-10 19:35:25.786 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 19:35:25.789 +02:00 [Information] Request finished in 42.0674ms 404 
+===> 2020-02-10 21:26:30.643 +02:00 [Information] Starting web host
+===> 2020-02-10 21:26:31.452 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-10 21:26:31.651 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-10 21:26:32.022 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-10 21:26:32.045 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-10 21:26:32.057 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-10 21:26:32.094 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-10 21:26:32.191 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 21:26:32.202 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-10 21:26:32.205 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 21:26:32.220 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-10 21:26:32.225 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-10 21:26:32.235 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-10 21:26:32.246 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-10 21:26:32.699 +02:00 [Information] Startup::Configure
+===> 2020-02-10 21:26:33.216 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-10 21:26:33.253 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-10 21:26:33.925 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-10 21:26:34.301 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-10 21:26:36.644 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-10 21:26:37.175 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.613 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.625 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-10 21:26:37.642 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (8ms).
+===> 2020-02-10 21:26:37.661 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 21:26:37.722 +02:00 [Information] Executed DbCommand ("60"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 21:26:37.729 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.740 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.747 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-10 21:26:37.747 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-10 21:26:37.747 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.749 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.750 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 21:26:37.805 +02:00 [Information] Executed DbCommand ("54"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 21:26:37.805 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.808 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.878 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:26:37.878 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:26:37.878 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.879 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.880 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 21:26:37.886 +02:00 [Information] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 21:26:37.891 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:26:37.891 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:37.892 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:38.267 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 21:26:38.291 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:26:38.291 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:26:38.291 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:38.291 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:38.291 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:26:38.293 +02:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:26:38.297 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:26:38.298 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:38.298 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:38.300 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 21:26:38.301 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:26:38.301 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:26:38.301 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:38.301 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:38.301 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:26:38.303 +02:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:26:38.303 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:26:38.303 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:38.303 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:26:38.304 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-10 21:26:38.363 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-10 21:26:38.394 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-10 21:26:38.396 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-10 21:26:38.459 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 21:26:38.558 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-10 21:26:38.586 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-10 21:26:38.587 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-10 21:26:38.587 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-10 21:26:38.587 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-10 21:26:38.587 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-10 21:26:38.587 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-10 21:26:38.588 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 21:26:38.589 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 21:26:38.595 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-10 21:26:38.621 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 29.8726ms
+===> 2020-02-10 21:26:38.626 +02:00 [Information] Request finished in 236.1112ms 200 text/html
+===> 2020-02-10 21:26:39.741 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-10 21:26:39.764 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 21:26:39.766 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 21:26:39.791 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-10 21:26:39.792 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 21:26:39.798 +02:00 [Information] Request finished in 57.9008ms 404 
+===> 2020-02-10 21:31:37.814 +02:00 [Information] Starting web host
+===> 2020-02-10 21:31:38.273 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-10 21:31:38.349 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-10 21:31:38.459 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-10 21:31:38.478 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-10 21:31:38.487 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-10 21:31:38.515 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-10 21:31:38.687 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 21:31:38.698 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-10 21:31:38.701 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 21:31:38.715 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-10 21:31:38.721 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-10 21:31:38.729 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-10 21:31:38.731 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-10 21:31:38.945 +02:00 [Information] Startup::Configure
+===> 2020-02-10 21:31:39.392 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-10 21:31:39.436 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-10 21:31:39.853 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-10 21:31:40.081 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-10 21:31:42.658 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-10 21:31:42.975 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.321 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.337 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-10 21:31:43.371 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (22ms).
+===> 2020-02-10 21:31:43.391 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 21:31:43.454 +02:00 [Information] Executed DbCommand ("63"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 21:31:43.460 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.473 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.481 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-10 21:31:43.481 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-10 21:31:43.481 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.483 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.485 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 21:31:43.541 +02:00 [Information] Executed DbCommand ("57"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 21:31:43.542 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.545 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.607 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:31:43.608 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:31:43.608 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.608 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.610 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 21:31:43.616 +02:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 21:31:43.623 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:31:43.625 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:43.625 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:44.330 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 21:31:44.395 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:31:44.395 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:31:44.395 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:44.395 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:44.396 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:31:44.399 +02:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:31:44.407 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:31:44.407 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:44.408 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:44.415 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 21:31:44.416 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:31:44.416 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:31:44.417 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:44.417 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:44.417 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:31:44.420 +02:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:31:44.421 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:31:44.421 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:44.421 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:31:44.424 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-10 21:31:44.538 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-10 21:31:44.605 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-10 21:31:44.612 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-10 21:31:44.756 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 21:31:45.063 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-10 21:31:45.147 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-10 21:31:45.149 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-10 21:31:45.150 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-10 21:31:45.150 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-10 21:31:45.151 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-10 21:31:45.152 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-10 21:31:45.155 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 21:31:45.157 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 21:31:45.175 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-10 21:31:45.239 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 77.51ms
+===> 2020-02-10 21:31:45.250 +02:00 [Information] Request finished in 654.224ms 200 text/html
+===> 2020-02-10 21:31:46.538 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-10 21:31:46.549 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 21:31:46.610 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 21:31:46.679 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-10 21:31:46.681 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 21:31:46.685 +02:00 [Information] Request finished in 149.4482ms 404 
+===> 2020-02-10 21:43:32.916 +02:00 [Information] Starting web host
+===> 2020-02-10 21:43:33.186 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-10 21:43:33.250 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-10 21:43:33.333 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-10 21:43:33.349 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-10 21:43:33.362 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-10 21:43:33.408 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-10 21:43:33.789 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 21:43:33.800 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-10 21:43:33.804 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 21:43:33.819 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-10 21:43:33.825 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-10 21:43:33.838 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-10 21:43:33.839 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-10 21:43:34.288 +02:00 [Information] Startup::Configure
+===> 2020-02-10 21:43:34.776 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-10 21:43:34.819 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-10 21:43:35.095 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-10 21:43:35.214 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-10 21:43:37.678 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-10 21:43:38.087 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.530 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.549 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-10 21:43:38.572 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (8ms).
+===> 2020-02-10 21:43:38.598 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 21:43:38.684 +02:00 [Information] Executed DbCommand ("82"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 21:43:38.693 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.716 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.728 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-10 21:43:38.728 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-10 21:43:38.728 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.731 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.732 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 21:43:38.791 +02:00 [Information] Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 21:43:38.792 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.801 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.923 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:43:38.924 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:43:38.924 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.924 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.925 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 21:43:38.932 +02:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 21:43:38.939 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:43:38.939 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:38.940 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:39.658 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 21:43:39.734 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:43:39.735 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:43:39.735 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:39.735 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:39.736 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:43:39.743 +02:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:43:39.754 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:43:39.755 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:39.755 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:39.762 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 21:43:39.763 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:43:39.763 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:43:39.763 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:39.764 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:39.764 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:43:39.769 +02:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:43:39.769 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:43:39.769 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:39.769 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:43:39.773 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-10 21:43:39.979 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-10 21:43:40.092 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-10 21:43:40.108 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-10 21:43:40.323 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 21:43:40.744 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-10 21:43:40.859 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-10 21:43:40.865 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-10 21:43:40.866 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-10 21:43:40.869 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-10 21:43:40.870 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-10 21:43:40.872 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-10 21:43:40.881 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 21:43:40.884 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 21:43:40.909 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-10 21:43:40.989 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 101.4356ms
+===> 2020-02-10 21:43:41.015 +02:00 [Information] Request finished in 940.0357ms 200 text/html
+===> 2020-02-10 21:43:42.597 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-10 21:43:42.615 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 21:43:42.619 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 21:43:42.718 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-10 21:43:42.721 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 21:43:42.731 +02:00 [Information] Request finished in 135.7781ms 404 
+===> 2020-02-10 21:53:54.415 +02:00 [Information] Starting web host
+===> 2020-02-10 21:53:54.767 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-10 21:53:54.882 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-10 21:53:54.983 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-10 21:53:55.005 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-10 21:53:55.021 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-10 21:53:55.051 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-10 21:53:55.250 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 21:53:55.261 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-10 21:53:55.265 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 21:53:55.284 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-10 21:53:55.291 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-10 21:53:55.306 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-10 21:53:55.308 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-10 21:53:55.411 +02:00 [Information] Startup::Configure
+===> 2020-02-10 21:53:56.785 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-10 21:53:56.851 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-10 21:53:57.222 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-10 21:53:57.382 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-10 21:53:59.575 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-10 21:53:59.968 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.342 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.357 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-10 21:54:00.377 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (7ms).
+===> 2020-02-10 21:54:00.411 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 21:54:00.493 +02:00 [Information] Executed DbCommand ("92"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 21:54:00.501 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.515 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.523 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-10 21:54:00.524 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-10 21:54:00.524 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.527 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.529 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 21:54:00.587 +02:00 [Information] Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 21:54:00.588 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.591 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.674 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:54:00.675 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:54:00.675 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.675 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.676 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 21:54:00.683 +02:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 21:54:00.689 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:54:00.689 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:00.690 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:01.339 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 21:54:01.423 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:54:01.423 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:54:01.423 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:01.424 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:01.424 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:54:01.434 +02:00 [Information] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:54:01.443 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:54:01.444 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:01.444 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:01.450 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 21:54:01.451 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 21:54:01.451 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 21:54:01.451 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:01.452 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:01.452 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:54:01.465 +02:00 [Information] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 21:54:01.466 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 21:54:01.466 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:01.466 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 21:54:01.469 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-10 21:54:01.601 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-10 21:54:01.688 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-10 21:54:01.697 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-10 21:54:01.863 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 21:54:02.256 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-10 21:54:02.341 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-10 21:54:02.344 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-10 21:54:02.345 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-10 21:54:02.346 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-10 21:54:02.347 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-10 21:54:02.347 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-10 21:54:02.351 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 21:54:02.353 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 21:54:02.369 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-10 21:54:02.429 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 70.2412ms
+===> 2020-02-10 21:54:02.442 +02:00 [Information] Request finished in 766.7651ms 200 text/html
+===> 2020-02-10 21:54:04.034 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-10 21:54:04.057 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 21:54:04.059 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 21:54:04.113 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-10 21:54:04.115 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 21:54:04.123 +02:00 [Information] Request finished in 88.8603ms 404 
+===> 2020-02-10 21:54:18.617 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44341/api/TaxCalculation text/plain; charset=utf-8 86
+===> 2020-02-10 21:54:18.624 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 21:54:18.625 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 21:54:18.626 +02:00 [Debug] "POST" requests are not supported
+===> 2020-02-10 21:54:18.626 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 21:54:18.627 +02:00 [Information] Request finished in 14.3002ms 404 
+===> 2020-02-10 22:14:27.198 +02:00 [Information] Starting web host
+===> 2020-02-10 22:14:27.649 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-10 22:14:27.747 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-10 22:14:27.842 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-10 22:14:27.859 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-10 22:14:27.869 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-10 22:14:27.905 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-10 22:14:28.036 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 22:14:28.048 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-10 22:14:28.051 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 22:14:28.067 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-10 22:14:28.072 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-10 22:14:28.082 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-10 22:14:28.083 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-10 22:14:28.254 +02:00 [Information] Startup::Configure
+===> 2020-02-10 22:14:28.828 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-10 22:14:28.946 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-10 22:14:29.551 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-10 22:14:29.778 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-10 22:14:32.574 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-10 22:14:33.039 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.469 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.486 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-10 22:14:33.512 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (10ms).
+===> 2020-02-10 22:14:33.538 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 22:14:33.618 +02:00 [Information] Executed DbCommand ("83"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 22:14:33.626 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.642 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.650 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-10 22:14:33.651 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-10 22:14:33.651 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.654 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.655 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 22:14:33.714 +02:00 [Information] Executed DbCommand ("60"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 22:14:33.715 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.717 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.811 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 22:14:33.811 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 22:14:33.812 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.812 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.813 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 22:14:33.825 +02:00 [Information] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 22:14:33.833 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 22:14:33.835 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:33.835 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:34.458 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 22:14:34.524 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 22:14:34.524 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 22:14:34.524 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:34.524 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:34.525 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 22:14:34.529 +02:00 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 22:14:34.538 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 22:14:34.538 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:34.538 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:34.543 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 22:14:34.544 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 22:14:34.544 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 22:14:34.544 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:34.545 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:34.545 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 22:14:34.548 +02:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 22:14:34.548 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 22:14:34.549 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:34.549 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:14:34.553 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-10 22:14:34.674 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-10 22:14:34.760 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-10 22:14:34.765 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-10 22:14:34.974 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 22:14:35.515 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-10 22:14:35.636 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-10 22:14:35.640 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-10 22:14:35.642 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-10 22:14:35.643 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-10 22:14:35.644 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-10 22:14:35.645 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-10 22:14:35.651 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 22:14:35.653 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 22:14:35.675 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-10 22:14:35.849 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 186.1674ms
+===> 2020-02-10 22:14:35.864 +02:00 [Information] Request finished in 1114.1426ms 200 text/html
+===> 2020-02-10 22:15:39.953 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-10 22:15:39.955 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 22:15:39.964 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 22:15:40.011 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-10 22:15:40.013 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 22:15:40.019 +02:00 [Information] Request finished in 65.5981ms 404 
+===> 2020-02-10 22:15:49.738 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44341/api/TaxCalculation text/plain; charset=utf-8 87
+===> 2020-02-10 22:15:49.746 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 22:15:49.747 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 22:15:49.748 +02:00 [Debug] "POST" requests are not supported
+===> 2020-02-10 22:15:49.748 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 22:15:49.749 +02:00 [Information] Request finished in 15.3812ms 404 
+===> 2020-02-10 22:25:15.065 +02:00 [Information] Starting web host
+===> 2020-02-10 22:25:15.456 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-10 22:25:15.584 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-10 22:25:15.692 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-10 22:25:15.711 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-10 22:25:15.724 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-10 22:25:15.754 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-10 22:25:15.919 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 22:25:15.932 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-10 22:25:15.935 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-10 22:25:15.951 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-10 22:25:15.957 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-10 22:25:15.969 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-10 22:25:15.970 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-10 22:25:16.164 +02:00 [Information] Startup::Configure
+===> 2020-02-10 22:25:16.695 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-10 22:25:16.797 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-10 22:25:17.327 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-10 22:25:17.526 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-10 22:25:20.855 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-10 22:25:21.576 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:28.474 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:28.496 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-10 22:25:28.532 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (11ms).
+===> 2020-02-10 22:25:28.564 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 22:25:28.656 +02:00 [Information] Executed DbCommand ("96"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-10 22:25:28.665 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:28.681 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:28.689 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-10 22:25:28.690 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-10 22:25:28.690 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:28.693 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:28.695 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 22:25:29.060 +02:00 [Information] Executed DbCommand ("365"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-10 22:25:29.060 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:29.063 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:29.169 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 22:25:29.169 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 22:25:29.169 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:29.170 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:29.171 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 22:25:29.208 +02:00 [Information] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-10 22:25:29.215 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 22:25:29.216 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:29.216 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:34.763 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 22:25:37.841 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 22:25:37.841 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 22:25:37.841 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:37.842 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:37.842 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 22:25:37.851 +02:00 [Information] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 22:25:37.861 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 22:25:37.862 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:37.862 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:37.870 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-10 22:25:37.871 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-10 22:25:37.871 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-10 22:25:37.871 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:37.872 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:37.872 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 22:25:37.878 +02:00 [Information] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-10 22:25:37.879 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-10 22:25:37.879 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:37.879 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-10 22:25:37.883 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-10 22:25:38.029 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-10 22:25:38.135 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-10 22:25:38.144 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-10 22:25:38.691 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 22:25:39.170 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-10 22:25:39.271 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-10 22:25:39.273 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-10 22:25:39.274 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-10 22:25:39.274 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-10 22:25:39.275 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-10 22:25:39.275 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-10 22:25:39.281 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 22:25:39.283 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-10 22:25:39.308 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-10 22:25:39.407 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 116.7384ms
+===> 2020-02-10 22:25:39.420 +02:00 [Information] Request finished in 1298.8653ms 200 text/html
+===> 2020-02-10 22:25:40.315 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44341/api/TaxCalculation text/plain; charset=utf-8 61
+===> 2020-02-10 22:25:40.319 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 22:25:40.336 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 22:25:40.392 +02:00 [Debug] "POST" requests are not supported
+===> 2020-02-10 22:25:40.394 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 22:25:40.400 +02:00 [Information] Request finished in 90.8459ms 404 
+===> 2020-02-10 22:25:46.365 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-10 22:25:46.784 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-10 22:25:46.785 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 22:25:46.815 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-10 22:25:46.815 +02:00 [Debug] Request did not match any routes
+===> 2020-02-10 22:25:46.821 +02:00 [Information] Request finished in 6030.4012ms 404 

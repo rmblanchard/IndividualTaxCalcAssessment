@@ -1,8 +1,42 @@
-﻿@{
+﻿@model TaxCalcRequestViewModel;
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="col-lg-12">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            @Html.LabelFor(x => Model.SelectedPostalCode, htmlAttributes: new { @class = "control-label col-md-6" })
+            <div class="col-md-5">
+                @Html.DropDownListFor(x => Model.SelectedPostalCode, new SelectList(Model.PostalCodes, "Value", "Text"), htmlAttributes: new { @class = "form-control", id = "SelectedPostalCode" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => Model.AnnualIncome, htmlAttributes: new { @class = "control-label col-md-6" })
+            <div class="col-md-5">
+                @Html.EditorFor(x => Model.AnnualIncome)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" name="calculate" class="btn btn-primary">
+                Calculate
+            </button>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => Model.TaxAmount, htmlAttributes: new { @class = "control-label col-md-6" })
+            <div class="col-md-5">
+                @Html.TextBoxFor(x => Model.TaxAmount, htmlAttributes: new { @readonly = "readonly" })
+            </div>
+        </div>
+    }
 </div>
