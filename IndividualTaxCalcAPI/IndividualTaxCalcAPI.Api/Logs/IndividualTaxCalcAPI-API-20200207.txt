@@ -1,0 +1,1244 @@
+===> 2020-02-07 08:38:06.231 +02:00 [Information] Starting web host
+===> 2020-02-07 08:38:06.630 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-07 08:38:06.698 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-07 08:38:06.879 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-07 08:38:06.912 +02:00 [Debug] Considering key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c} with expiration date 2020-02-04 07:59:02Z as default key.
+===> 2020-02-07 08:38:06.913 +02:00 [Debug] Key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c} is no longer under consideration as default key because it is expired, revoked, or cannot be deciphered.
+===> 2020-02-07 08:38:07.051 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-07 08:38:07.057 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-07 08:38:07.061 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-07 08:38:07.071 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-07 08:38:07.077 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-07 08:38:07.085 +02:00 [Debug] Repository contains no viable default key. Caller should generate a key with immediate activation.
+===> 2020-02-07 08:38:07.085 +02:00 [Debug] Policy resolution states that a new key should be added to the key ring.
+===> 2020-02-07 08:38:07.096 +02:00 [Information] Creating key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with creation date 2020-02-07 06:38:07Z, activation date 2020-02-07 06:38:06Z, and expiration date 2020-05-07 06:38:06Z.
+===> 2020-02-07 08:38:07.112 +02:00 [Debug] Descriptor deserializer type for key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} is '"Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60"'.
+===> 2020-02-07 08:38:07.114 +02:00 [Debug] No key escrow sink found. Not writing key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} to escrow.
+===> 2020-02-07 08:38:07.249 +02:00 [Debug] Encrypting to Windows DPAPI for current user account ("LAP-EBENEZERS\ryanbAUL").
+===> 2020-02-07 08:38:07.276 +02:00 [Information] Writing data to file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-07 08:38:07.281 +02:00 [Debug] Key cache expiration token triggered by '"CreateNewKey"' operation.
+===> 2020-02-07 08:38:07.282 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-07 08:38:07.282 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-07 08:38:07.283 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-07 08:38:07.284 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-07 08:38:07.285 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-07 08:38:07.286 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-07 08:38:07.287 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-07 08:38:07.288 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-07 08:38:07.288 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-07 08:38:07.288 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-07 08:38:07.289 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-07 08:38:07.290 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-07 08:38:07.634 +02:00 [Information] Startup::Configure
+===> 2020-02-07 08:38:08.238 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-07 08:38:08.304 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-07 08:38:08.784 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-07 08:38:09.045 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-07 08:38:10.887 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-07 08:38:11.529 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:24.106 +02:00 [Debug] An error occurred using the connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:24.211 +02:00 [Debug] Migrating using database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:24.211 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:24.406 +02:00 [Debug] An error occurred using the connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:24.475 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:24.658 +02:00 [Debug] An error occurred using the connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:24.785 +02:00 [Debug] Opening connection to database '"master"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:24.825 +02:00 [Debug] Opened connection to database '"master"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:24.834 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 08:38:24.852 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (7ms).
+===> 2020-02-07 08:38:24.877 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [IndividualTaxCalc];"
+===> 2020-02-07 08:38:25.229 +02:00 [Information] Executed DbCommand ("355"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [IndividualTaxCalc];"
+===> 2020-02-07 08:38:25.233 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 08:38:25.234 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2020-02-07 08:38:25.234 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [IndividualTaxCalc] SET READ_COMMITTED_SNAPSHOT ON;
+END;"
+===> 2020-02-07 08:38:25.325 +02:00 [Information] Executed DbCommand ("91"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [IndividualTaxCalc] SET READ_COMMITTED_SNAPSHOT ON;
+END;"
+===> 2020-02-07 08:38:25.329 +02:00 [Debug] Closing connection to database '"master"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.345 +02:00 [Debug] Closed connection to database '"master"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.353 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.361 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.362 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 08:38:25.362 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2020-02-07 08:38:25.363 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-07 08:38:25.385 +02:00 [Information] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-07 08:38:25.386 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.386 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.664 +02:00 [Debug] DetectChanges starting for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:25.673 +02:00 [Debug] DetectChanges completed for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:25.705 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 08:38:25.705 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2020-02-07 08:38:25.706 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.708 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.708 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+===> 2020-02-07 08:38:25.722 +02:00 [Information] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+===> 2020-02-07 08:38:25.722 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.722 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.722 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.723 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.723 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 08:38:25.723 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2020-02-07 08:38:25.723 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-07 08:38:25.724 +02:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-07 08:38:25.724 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.724 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.731 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-07 08:38:25.731 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-07 08:38:25.731 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.732 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.733 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-07 08:38:25.788 +02:00 [Information] Executed DbCommand ("55"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-07 08:38:25.788 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.790 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.794 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 08:38:25.794 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 08:38:25.795 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.795 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.796 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-07 08:38:25.803 +02:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-07 08:38:25.808 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 08:38:25.808 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.809 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.836 +02:00 [Information] Applying migration '"20180708205028_InitialCreate"'.
+===> 2020-02-07 08:38:25.915 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.915 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.920 +02:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2020-02-07 08:38:25.937 +02:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2020-02-07 08:38:25.939 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 08:38:25.940 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2020-02-07 08:38:25.942 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2020-02-07 08:38:25.947 +02:00 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2020-02-07 08:38:25.948 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 08:38:25.948 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2020-02-07 08:38:25.948 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [FirstName] nvarchar(20) NOT NULL,
+    [LastName] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsAdminRole] bit NOT NULL,
+    [Roles] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    [Password] nvarchar(255) NULL,
+    [AccountId] int NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);"
+===> 2020-02-07 08:38:25.955 +02:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [FirstName] nvarchar(20) NOT NULL,
+    [LastName] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsAdminRole] bit NOT NULL,
+    [Roles] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    [Password] nvarchar(255) NULL,
+    [AccountId] int NOT NULL,
+    [RowVersion] rowversion NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);"
+===> 2020-02-07 08:38:25.955 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 08:38:25.956 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2020-02-07 08:38:25.956 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Users_AccountId] ON [Users] ([AccountId]);"
+===> 2020-02-07 08:38:25.959 +02:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Users_AccountId] ON [Users] ([AccountId]);"
+===> 2020-02-07 08:38:25.959 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 08:38:25.959 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2020-02-07 08:38:25.959 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20180708205028_InitialCreate', N'3.1.0');"
+===> 2020-02-07 08:38:25.965 +02:00 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20180708205028_InitialCreate', N'3.1.0');"
+===> 2020-02-07 08:38:25.970 +02:00 [Debug] Committing transaction.
+===> 2020-02-07 08:38:25.977 +02:00 [Debug] Committing transaction.
+===> 2020-02-07 08:38:25.981 +02:00 [Debug] Disposing transaction.
+===> 2020-02-07 08:38:25.982 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:25.982 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:26.510 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-07 08:38:26.561 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 08:38:26.562 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 08:38:26.562 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:26.562 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:26.562 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 08:38:26.566 +02:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 08:38:26.575 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 08:38:26.575 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:26.575 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:26.884 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' generated a temporary value for the '"Id"' property of new '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-02-07 08:38:27.016 +02:00 [Debug] Context '"IndividualTaxCalcAPIContext"' started tracking '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-02-07 08:38:27.020 +02:00 [Debug] DetectChanges starting for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:27.051 +02:00 [Debug] DetectChanges completed for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:27.059 +02:00 [Debug] SaveChanges starting for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:27.059 +02:00 [Debug] DetectChanges starting for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:27.062 +02:00 [Debug] Unchanged '"Account"."Created"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-02-07 08:38:27.067 +02:00 [Debug] Unchanged '"Account"."Modified"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-02-07 08:38:27.068 +02:00 [Debug] DetectChanges completed for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:27.086 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.086 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.086 +02:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2020-02-07 08:38:27.087 +02:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2020-02-07 08:38:27.187 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 08:38:27.187 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 08:38:27.211 +02:00 [Debug] Executing DbCommand [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 255), @p2='?' (Size = 30), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 30), @p7='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Accounts] ([Created], [Description], [Email], [IsActive], [IsTrial], [Modified], [Name], [SetActive])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id], [RowVersion]
+FROM [Accounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2020-02-07 08:38:27.292 +02:00 [Information] Executed DbCommand ("91"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 255), @p2='?' (Size = 30), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 30), @p7='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Accounts] ([Created], [Description], [Email], [IsActive], [IsTrial], [Modified], [Name], [SetActive])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id], [RowVersion]
+FROM [Accounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2020-02-07 08:38:27.332 +02:00 [Debug] Foreign key property '"Account"."Id"' detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-02-07 08:38:27.357 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 08:38:27.358 +02:00 [Debug] Committing transaction.
+===> 2020-02-07 08:38:27.359 +02:00 [Debug] Committing transaction.
+===> 2020-02-07 08:38:27.359 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.359 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.360 +02:00 [Debug] Disposing transaction.
+===> 2020-02-07 08:38:27.385 +02:00 [Debug] An '"Account"' entity tracked by '"IndividualTaxCalcAPIContext"' changed from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-02-07 08:38:27.388 +02:00 [Debug] SaveChanges completed for '"IndividualTaxCalcAPIContext"' with 1 entities written to the database.
+===> 2020-02-07 08:38:27.392 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-07 08:38:27.393 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 08:38:27.393 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 08:38:27.393 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.394 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.394 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 08:38:27.397 +02:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 08:38:27.397 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 08:38:27.397 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.398 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.432 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' generated a temporary value for the '"Id"' property of new '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-02-07 08:38:27.491 +02:00 [Debug] Context '"IndividualTaxCalcAPIContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-02-07 08:38:27.493 +02:00 [Debug] DetectChanges starting for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:27.518 +02:00 [Debug] DetectChanges completed for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:27.518 +02:00 [Debug] SaveChanges starting for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:27.518 +02:00 [Debug] DetectChanges starting for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:27.519 +02:00 [Debug] Unchanged '"User"."Created"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-02-07 08:38:27.520 +02:00 [Debug] Unchanged '"User"."Modified"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-02-07 08:38:27.521 +02:00 [Debug] DetectChanges completed for '"IndividualTaxCalcAPIContext"'.
+===> 2020-02-07 08:38:27.521 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.522 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.522 +02:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2020-02-07 08:38:27.523 +02:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2020-02-07 08:38:27.526 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 08:38:27.527 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 08:38:27.527 +02:00 [Debug] Executing DbCommand [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 255), @p3='?' (Size = 30), @p4='?' (Size = 20), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 20), @p8='?' (DbType = DateTime2), @p9='?' (Size = -1), @p10='?' (Size = 255), @p11='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountId], [Created], [Description], [Email], [FirstName], [IsActive], [IsAdminRole], [LastName], [Modified], [Password], [Roles], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id], [RowVersion]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2020-02-07 08:38:27.535 +02:00 [Information] Executed DbCommand ("8"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 255), @p3='?' (Size = 30), @p4='?' (Size = 20), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 20), @p8='?' (DbType = DateTime2), @p9='?' (Size = -1), @p10='?' (Size = 255), @p11='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountId], [Created], [Description], [Email], [FirstName], [IsActive], [IsAdminRole], [LastName], [Modified], [Password], [Roles], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id], [RowVersion]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2020-02-07 08:38:27.538 +02:00 [Debug] Foreign key property '"User"."Id"' detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2020-02-07 08:38:27.541 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 08:38:27.541 +02:00 [Debug] Committing transaction.
+===> 2020-02-07 08:38:27.543 +02:00 [Debug] Committing transaction.
+===> 2020-02-07 08:38:27.544 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.544 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:38:27.544 +02:00 [Debug] Disposing transaction.
+===> 2020-02-07 08:38:27.547 +02:00 [Debug] An '"User"' entity tracked by '"IndividualTaxCalcAPIContext"' changed from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-02-07 08:38:27.548 +02:00 [Debug] SaveChanges completed for '"IndividualTaxCalcAPIContext"' with 1 entities written to the database.
+===> 2020-02-07 08:38:27.551 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-07 08:38:27.759 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-07 08:38:27.862 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-07 08:38:27.867 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-07 08:38:28.345 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:38:28.632 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-07 08:38:28.693 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 08:38:28.695 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 08:38:28.695 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 08:38:28.696 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:38:28.697 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 08:38:28.697 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-07 08:38:28.701 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 08:38:28.703 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 08:38:28.716 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-07 08:38:28.814 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 104.4025ms
+===> 2020-02-07 08:38:28.820 +02:00 [Information] Request finished in 963.0466ms 200 text/html
+===> 2020-02-07 08:38:29.878 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-07 08:38:29.893 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:38:29.895 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:38:29.939 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-07 08:38:29.942 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:38:29.947 +02:00 [Information] Request finished in 69.7167ms 404 
+===> 2020-02-07 08:43:02.088 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger  
+===> 2020-02-07 08:43:02.095 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:43:02.095 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.106 +02:00 [Information] Request finished in 19.0733ms 301 
+===> 2020-02-07 08:43:02.114 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html  
+===> 2020-02-07 08:43:02.115 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:43:02.116 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.263 +02:00 [Information] Request finished in 149.1121ms 200 text/html;charset=utf-8
+===> 2020-02-07 08:43:02.292 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2020-02-07 08:43:02.292 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2020-02-07 08:43:02.292 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2020-02-07 08:43:02.293 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:43:02.293 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:43:02.293 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:43:02.293 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.293 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.293 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.409 +02:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2020-02-07 08:43:02.409 +02:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2020-02-07 08:43:02.411 +02:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2020-02-07 08:43:02.427 +02:00 [Information] Request finished in 140.2692ms 200 text/css
+===> 2020-02-07 08:43:02.427 +02:00 [Information] Request finished in 135.4407ms 200 application/javascript
+===> 2020-02-07 08:43:02.427 +02:00 [Information] Request finished in 135.6675ms 200 application/javascript
+===> 2020-02-07 08:43:02.857 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2020-02-07 08:43:02.858 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:43:02.859 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.906 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/favicon-32x32.png  
+===> 2020-02-07 08:43:02.906 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:43:02.906 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.909 +02:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+===> 2020-02-07 08:43:02.910 +02:00 [Information] Request finished in 3.5959ms 200 image/png
+===> 2020-02-07 08:43:02.958 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js.map  
+===> 2020-02-07 08:43:02.958 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js.map  
+===> 2020-02-07 08:43:02.958 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:43:02.958 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.958 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:43:02.959 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.959 +02:00 [Debug] The request path "/swagger-ui-bundle.js.map" does not match an existing file
+===> 2020-02-07 08:43:02.959 +02:00 [Debug] The request path "/swagger-ui-standalone-preset.js.map" does not match an existing file
+===> 2020-02-07 08:43:02.959 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.960 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:43:02.960 +02:00 [Information] Request finished in 2.2806ms 404 
+===> 2020-02-07 08:43:02.961 +02:00 [Information] Request finished in 2.6149ms 404 
+===> 2020-02-07 08:43:03.165 +02:00 [Information] Request finished in 308.8694ms 200 application/json;charset=utf-8
+===> 2020-02-07 08:52:47.350 +02:00 [Information] Starting web host
+===> 2020-02-07 08:52:47.577 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-07 08:52:47.634 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-07 08:52:47.687 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-07 08:52:47.702 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-07 08:52:47.713 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-07 08:52:47.735 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-07 08:52:47.791 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-07 08:52:47.796 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-07 08:52:47.799 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-07 08:52:47.805 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-07 08:52:47.810 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-07 08:52:47.815 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-07 08:52:47.816 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-07 08:52:47.877 +02:00 [Information] Startup::Configure
+===> 2020-02-07 08:52:48.151 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-07 08:52:48.190 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-07 08:52:48.406 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-07 08:52:48.505 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-07 08:52:49.447 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-07 08:52:49.574 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.713 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.718 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 08:52:49.724 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2020-02-07 08:52:49.732 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-07 08:52:49.755 +02:00 [Information] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-07 08:52:49.758 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.763 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.766 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-07 08:52:49.766 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-07 08:52:49.766 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.767 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.767 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-07 08:52:49.784 +02:00 [Information] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-07 08:52:49.784 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.785 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.813 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 08:52:49.813 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 08:52:49.813 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.813 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.813 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-07 08:52:49.817 +02:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-07 08:52:49.819 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 08:52:49.820 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.820 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.975 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-07 08:52:49.992 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 08:52:49.992 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 08:52:49.992 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.992 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.992 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 08:52:49.993 +02:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 08:52:49.996 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 08:52:49.996 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.996 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.998 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-07 08:52:49.998 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 08:52:49.998 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 08:52:49.998 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.998 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:49.998 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 08:52:50.002 +02:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 08:52:50.002 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 08:52:50.002 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:50.002 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 08:52:50.003 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-07 08:52:50.045 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-07 08:52:50.073 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-07 08:52:50.076 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-07 08:52:50.138 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:52:50.235 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-07 08:52:50.257 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 08:52:50.258 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 08:52:50.258 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 08:52:50.258 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:52:50.258 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 08:52:50.259 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-07 08:52:50.260 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 08:52:50.260 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 08:52:50.265 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-07 08:52:50.290 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 27.9072ms
+===> 2020-02-07 08:52:50.293 +02:00 [Information] Request finished in 221.3959ms 200 text/html
+===> 2020-02-07 08:52:51.691 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-07 08:52:51.703 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:52:51.704 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:52:51.722 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-07 08:52:51.722 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:52:51.724 +02:00 [Information] Request finished in 33.2953ms 404 
+===> 2020-02-07 08:53:31.788 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger  
+===> 2020-02-07 08:53:31.792 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:53:31.793 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:53:31.795 +02:00 [Information] Request finished in 7.1895ms 301 
+===> 2020-02-07 08:53:31.798 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html  
+===> 2020-02-07 08:53:31.799 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:53:31.799 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:53:31.922 +02:00 [Information] Request finished in 123.2295ms 200 text/html;charset=utf-8
+===> 2020-02-07 08:53:31.939 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2020-02-07 08:53:31.939 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2020-02-07 08:53:31.939 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2020-02-07 08:53:31.939 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:53:31.939 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:53:31.939 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:53:31.939 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:53:31.939 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:53:31.939 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:53:31.982 +02:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2020-02-07 08:53:31.982 +02:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2020-02-07 08:53:31.984 +02:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2020-02-07 08:53:31.991 +02:00 [Information] Request finished in 51.894ms 200 application/javascript
+===> 2020-02-07 08:53:31.991 +02:00 [Information] Request finished in 51.8889ms 200 text/css
+===> 2020-02-07 08:53:31.991 +02:00 [Information] Request finished in 51.8428ms 200 application/javascript
+===> 2020-02-07 08:53:32.177 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2020-02-07 08:53:32.178 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:53:32.178 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:53:32.216 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js.map  
+===> 2020-02-07 08:53:32.216 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js.map  
+===> 2020-02-07 08:53:32.216 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:53:32.216 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:53:32.216 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:53:32.216 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:53:32.216 +02:00 [Debug] The request path "/swagger-ui-bundle.js.map" does not match an existing file
+===> 2020-02-07 08:53:32.216 +02:00 [Debug] The request path "/swagger-ui-standalone-preset.js.map" does not match an existing file
+===> 2020-02-07 08:53:32.217 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:53:32.217 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 08:53:32.218 +02:00 [Information] Request finished in 1.9473ms 404 
+===> 2020-02-07 08:53:32.218 +02:00 [Information] Request finished in 1.9666ms 404 
+===> 2020-02-07 08:53:32.311 +02:00 [Information] Request finished in 133.7797ms 200 application/json;charset=utf-8
+===> 2020-02-07 08:53:43.107 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Account  
+===> 2020-02-07 08:53:43.108 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:53:43.109 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-02-07 08:53:43.112 +02:00 [Debug] Action '"IndividualTaxCalcAPI.Api.Controllers.AccountController.Create (IndividualTaxCalcAPI.Api)"' with id '"4e1a5758-ecd9-4fdf-b8fa-319c2490e6fb"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 08:53:43.115 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IndividualTaxCalcAPI.Domain.AccountViewModel] GetAll()" on controller "IndividualTaxCalcAPI.Api.Controllers.AccountController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 08:53:43.116 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-07 08:53:43.116 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 08:53:43.116 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:53:43.116 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 08:53:43.116 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:53:43.123 +02:00 [Information] Authorization failed.
+===> 2020-02-07 08:53:43.124 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-02-07 08:53:43.124 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-02-07 08:53:43.128 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-02-07 08:53:43.128 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.AccountController.GetAll (IndividualTaxCalcAPI.Api)" in 11.9113ms
+===> 2020-02-07 08:53:43.129 +02:00 [Information] Request finished in 22.4987ms 401 
+===> 2020-02-07 08:54:00.963 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Account  
+===> 2020-02-07 08:54:00.964 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:54:00.964 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-02-07 08:54:00.966 +02:00 [Debug] Action '"IndividualTaxCalcAPI.Api.Controllers.AccountController.Create (IndividualTaxCalcAPI.Api)"' with id '"4e1a5758-ecd9-4fdf-b8fa-319c2490e6fb"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 08:54:00.967 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IndividualTaxCalcAPI.Domain.AccountViewModel] GetAll()" on controller "IndividualTaxCalcAPI.Api.Controllers.AccountController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 08:54:00.967 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-07 08:54:00.967 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 08:54:00.967 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:54:00.967 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 08:54:00.967 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:54:00.968 +02:00 [Information] Authorization failed.
+===> 2020-02-07 08:54:00.968 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-02-07 08:54:00.969 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-02-07 08:54:00.969 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-02-07 08:54:00.969 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.AccountController.GetAll (IndividualTaxCalcAPI.Api)" in 1.541ms
+===> 2020-02-07 08:54:00.970 +02:00 [Information] Request finished in 7.1404ms 401 
+===> 2020-02-07 08:56:09.427 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Account  
+===> 2020-02-07 08:56:09.428 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:56:09.429 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-02-07 08:56:09.429 +02:00 [Debug] Action '"IndividualTaxCalcAPI.Api.Controllers.AccountController.Create (IndividualTaxCalcAPI.Api)"' with id '"4e1a5758-ecd9-4fdf-b8fa-319c2490e6fb"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 08:56:09.430 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IndividualTaxCalcAPI.Domain.AccountViewModel] GetAll()" on controller "IndividualTaxCalcAPI.Api.Controllers.AccountController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 08:56:09.430 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-07 08:56:09.431 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 08:56:09.431 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:56:09.432 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 08:56:09.432 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:56:09.434 +02:00 [Information] Authorization failed.
+===> 2020-02-07 08:56:09.434 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-02-07 08:56:09.434 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-02-07 08:56:09.435 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-02-07 08:56:09.435 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.AccountController.GetAll (IndividualTaxCalcAPI.Api)" in 2.9497ms
+===> 2020-02-07 08:56:09.437 +02:00 [Information] Request finished in 12.0829ms 401 
+===> 2020-02-07 08:56:48.227 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Account  
+===> 2020-02-07 08:56:48.234 +02:00 [Information] "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token: 12345678910111213141516"
+===> 2020-02-07 08:56:48.234 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-02-07 08:56:48.234 +02:00 [Debug] Action '"IndividualTaxCalcAPI.Api.Controllers.AccountController.Create (IndividualTaxCalcAPI.Api)"' with id '"4e1a5758-ecd9-4fdf-b8fa-319c2490e6fb"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 08:56:48.235 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IndividualTaxCalcAPI.Domain.AccountViewModel] GetAll()" on controller "IndividualTaxCalcAPI.Api.Controllers.AccountController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 08:56:48.235 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-07 08:56:48.235 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 08:56:48.236 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:56:48.236 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 08:56:48.236 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:56:48.237 +02:00 [Information] Authorization failed.
+===> 2020-02-07 08:56:48.237 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-02-07 08:56:48.237 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-02-07 08:56:48.239 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-02-07 08:56:48.239 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.AccountController.GetAll (IndividualTaxCalcAPI.Api)" in 3.1933ms
+===> 2020-02-07 08:56:48.240 +02:00 [Information] Request finished in 12.8682ms 401 
+===> 2020-02-07 08:57:55.954 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Account  
+===> 2020-02-07 08:57:55.956 +02:00 [Information] "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token: 12345678910111213141516"
+===> 2020-02-07 08:57:55.956 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-02-07 08:57:55.957 +02:00 [Debug] Action '"IndividualTaxCalcAPI.Api.Controllers.AccountController.Create (IndividualTaxCalcAPI.Api)"' with id '"4e1a5758-ecd9-4fdf-b8fa-319c2490e6fb"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 08:57:55.957 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IndividualTaxCalcAPI.Domain.AccountViewModel] GetAll()" on controller "IndividualTaxCalcAPI.Api.Controllers.AccountController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 08:57:55.961 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-07 08:57:55.961 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 08:57:55.961 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:57:55.961 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 08:57:55.961 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:57:55.962 +02:00 [Information] Authorization failed.
+===> 2020-02-07 08:57:55.962 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-02-07 08:57:55.962 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-02-07 08:57:55.963 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-02-07 08:57:55.963 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.AccountController.GetAll (IndividualTaxCalcAPI.Api)" in 1.5047ms
+===> 2020-02-07 08:57:55.965 +02:00 [Information] Request finished in 10.5812ms 401 
+===> 2020-02-07 08:58:50.481 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-07 08:58:50.485 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 08:58:50.486 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-07 08:58:50.487 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 08:58:50.487 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 08:58:50.487 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 08:58:50.488 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 08:58:50.488 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 08:58:50.488 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-07 08:58:50.488 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 08:58:50.488 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 08:58:50.489 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-07 08:58:50.491 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 2.3814ms
+===> 2020-02-07 08:58:50.491 +02:00 [Information] Request finished in 10.52ms 200 text/html
+===> 2020-02-07 09:02:12.844 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger  
+===> 2020-02-07 09:02:12.847 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:02:12.847 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:02:12.859 +02:00 [Information] Request finished in 15.2385ms 301 
+===> 2020-02-07 09:02:12.878 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html  
+===> 2020-02-07 09:02:12.879 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:02:12.879 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:02:12.882 +02:00 [Information] Request finished in 3.6561ms 200 text/html;charset=utf-8
+===> 2020-02-07 09:02:12.918 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2020-02-07 09:02:12.919 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:02:12.919 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:02:12.919 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2020-02-07 09:02:12.919 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:02:12.919 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:02:12.920 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2020-02-07 09:02:12.920 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:02:12.920 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:02:12.958 +02:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2020-02-07 09:02:12.960 +02:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2020-02-07 09:02:12.967 +02:00 [Information] Request finished in 47.7632ms 200 application/javascript
+===> 2020-02-07 09:02:12.969 +02:00 [Information] Request finished in 50.6086ms 200 text/css
+===> 2020-02-07 09:02:12.972 +02:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2020-02-07 09:02:12.972 +02:00 [Information] Request finished in 53.3499ms 200 application/javascript
+===> 2020-02-07 09:02:13.484 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2020-02-07 09:02:13.485 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:02:13.485 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:02:13.512 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js.map  
+===> 2020-02-07 09:02:13.513 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:02:13.514 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:02:13.514 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js.map  
+===> 2020-02-07 09:02:13.515 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:02:13.515 +02:00 [Debug] The request path "/swagger-ui-bundle.js.map" does not match an existing file
+===> 2020-02-07 09:02:13.516 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:02:13.516 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:02:13.517 +02:00 [Debug] The request path "/swagger-ui-standalone-preset.js.map" does not match an existing file
+===> 2020-02-07 09:02:13.517 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:02:13.519 +02:00 [Information] Request finished in 6.6396ms 404 
+===> 2020-02-07 09:02:13.521 +02:00 [Information] Request finished in 7.4018ms 404 
+===> 2020-02-07 09:02:13.557 +02:00 [Information] Request finished in 73.341ms 200 application/json;charset=utf-8
+===> 2020-02-07 09:05:59.372 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-07 09:05:59.378 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:05:59.379 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-07 09:05:59.381 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:05:59.381 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 09:05:59.381 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:05:59.381 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:05:59.382 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:05:59.382 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-07 09:05:59.382 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:05:59.383 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:05:59.385 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-07 09:05:59.387 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 4.9526ms
+===> 2020-02-07 09:05:59.388 +02:00 [Information] Request finished in 16.5606ms 200 text/html
+===> 2020-02-07 09:06:23.941 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Token  
+===> 2020-02-07 09:06:23.941 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:06:23.942 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Token"'
+===> 2020-02-07 09:06:23.942 +02:00 [Debug] Action '"JWT.Controllers.TokenController.Create (IndividualTaxCalcAPI.Api)"' with id '"e72f74de-ab99-4e6c-9e72-441c1b386cb2"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 09:06:23.944 +02:00 [Debug] No actions matched the current request. Route values: []
+===> 2020-02-07 09:06:23.944 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:06:23.945 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-07 09:06:23.952 +02:00 [Information] Request did not specify a service API version, but multiple candidate actions were found. Candidate actions: "JWT.Controllers.TokenController.Create (IndividualTaxCalcAPI.Api)"
+===> 2020-02-07 09:06:23.958 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-02-07 09:06:23.961 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-02-07 09:06:23.961 +02:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2020-02-07 09:06:23.961 +02:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2020-02-07 09:06:23.962 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2020-02-07 09:06:23.962 +02:00 [Information] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=4.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=4.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]"'.
+===> 2020-02-07 09:06:23.983 +02:00 [Information] Request finished in 42.5926ms 405 application/json; charset=utf-8
+===> 2020-02-07 09:06:46.674 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44341/api/Token  0
+===> 2020-02-07 09:06:46.675 +02:00 [Information] "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token: 12345678910111213141516"
+===> 2020-02-07 09:06:46.675 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Token"'
+===> 2020-02-07 09:06:46.689 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Token\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:06:46.689 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 09:06:46.689 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:06:46.689 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:06:46.689 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:06:46.689 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:06:46.689 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:06:46.880 +02:00 [Debug] Executed controller factory for controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:06:46.886 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-02-07 09:06:46.889 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' using the name '""' in request data ...
+===> 2020-02-07 09:06:46.889 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type 'null'.
+===> 2020-02-07 09:06:46.890 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type 'null'.
+===> 2020-02-07 09:06:46.890 +02:00 [Debug] No input formatter was found to support the content type 'null' for use with the [FromBody] attribute.
+===> 2020-02-07 09:06:46.890 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:06:46.891 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:06:46.891 +02:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-02-07 09:06:46.892 +02:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:06:46.894 +02:00 [Debug] Request was short circuited at action filter '"Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"'.
+===> 2020-02-07 09:06:46.894 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-02-07 09:06:46.895 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-02-07 09:06:46.895 +02:00 [Debug] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json", "application/problem+xml"]'.
+===> 2020-02-07 09:06:46.895 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/problem+json"' to write the response.
+===> 2020-02-07 09:06:46.895 +02:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+===> 2020-02-07 09:06:46.904 +02:00 [Information] Executed action "JWT.Controllers.TokenController.Create (IndividualTaxCalcAPI.Api)" in 214.4752ms
+===> 2020-02-07 09:06:46.905 +02:00 [Information] Request finished in 230.7705ms 415 application/problem+json; charset=utf-8
+===> 2020-02-07 09:07:08.360 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44341/api/Token  0
+===> 2020-02-07 09:07:08.361 +02:00 [Information] "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token: Bearer 12345678910111213141516"
+===> 2020-02-07 09:07:08.361 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Token"'
+===> 2020-02-07 09:07:08.362 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Token\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:07:08.362 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 09:07:08.362 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:07:08.362 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:07:08.362 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:07:08.362 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:07:08.362 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:07:08.369 +02:00 [Debug] Executed controller factory for controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:07:08.369 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-02-07 09:07:08.370 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' using the name '""' in request data ...
+===> 2020-02-07 09:07:08.370 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type 'null'.
+===> 2020-02-07 09:07:08.370 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type 'null'.
+===> 2020-02-07 09:07:08.370 +02:00 [Debug] No input formatter was found to support the content type 'null' for use with the [FromBody] attribute.
+===> 2020-02-07 09:07:08.370 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:07:08.370 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:07:08.370 +02:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-02-07 09:07:08.370 +02:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:07:08.371 +02:00 [Debug] Request was short circuited at action filter '"Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"'.
+===> 2020-02-07 09:07:08.371 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-02-07 09:07:08.371 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-02-07 09:07:08.371 +02:00 [Debug] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json", "application/problem+xml"]'.
+===> 2020-02-07 09:07:08.372 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/problem+json"' to write the response.
+===> 2020-02-07 09:07:08.372 +02:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+===> 2020-02-07 09:07:08.377 +02:00 [Information] Executed action "JWT.Controllers.TokenController.Create (IndividualTaxCalcAPI.Api)" in 14.6331ms
+===> 2020-02-07 09:07:08.379 +02:00 [Information] Request finished in 17.9784ms 415 application/problem+json; charset=utf-8
+===> 2020-02-07 09:07:36.064 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44341/api/Token  0
+===> 2020-02-07 09:07:36.073 +02:00 [Information] "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token: 12345678910111213141516"
+===> 2020-02-07 09:07:36.073 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Token"'
+===> 2020-02-07 09:07:36.075 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Token\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:07:36.075 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 09:07:36.075 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:07:36.075 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:07:36.075 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:07:36.075 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:07:36.076 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:07:36.081 +02:00 [Debug] Executed controller factory for controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:07:36.081 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-02-07 09:07:36.082 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' using the name '""' in request data ...
+===> 2020-02-07 09:07:36.082 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type 'null'.
+===> 2020-02-07 09:07:36.082 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type 'null'.
+===> 2020-02-07 09:07:36.083 +02:00 [Debug] No input formatter was found to support the content type 'null' for use with the [FromBody] attribute.
+===> 2020-02-07 09:07:36.083 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:07:36.083 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:07:36.083 +02:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-02-07 09:07:36.084 +02:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:07:36.084 +02:00 [Debug] Request was short circuited at action filter '"Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"'.
+===> 2020-02-07 09:07:36.085 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-02-07 09:07:36.085 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-02-07 09:07:36.085 +02:00 [Debug] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json", "application/problem+xml"]'.
+===> 2020-02-07 09:07:36.085 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/problem+json"' to write the response.
+===> 2020-02-07 09:07:36.086 +02:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+===> 2020-02-07 09:07:36.088 +02:00 [Information] Executed action "JWT.Controllers.TokenController.Create (IndividualTaxCalcAPI.Api)" in 12.5143ms
+===> 2020-02-07 09:07:36.090 +02:00 [Information] Request finished in 26.0658ms 415 application/problem+json; charset=utf-8
+===> 2020-02-07 09:09:01.630 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-07 09:09:01.634 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:09:01.634 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-07 09:09:01.635 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:09:01.635 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 09:09:01.635 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:09:01.635 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:09:01.636 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:09:01.636 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-07 09:09:01.636 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:09:01.636 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:09:01.637 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-07 09:09:01.638 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 2.1012ms
+===> 2020-02-07 09:09:01.638 +02:00 [Information] Request finished in 8.25ms 200 text/html
+===> 2020-02-07 09:09:05.779 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger  
+===> 2020-02-07 09:09:05.780 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:09:05.780 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:09:05.781 +02:00 [Information] Request finished in 1.3738ms 301 
+===> 2020-02-07 09:09:05.784 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html  
+===> 2020-02-07 09:09:05.785 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:09:05.785 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:09:05.790 +02:00 [Information] Request finished in 5.5208ms 200 text/html;charset=utf-8
+===> 2020-02-07 09:09:05.810 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2020-02-07 09:09:05.810 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2020-02-07 09:09:05.810 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2020-02-07 09:09:05.811 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:09:05.811 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:09:05.811 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:09:05.811 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:09:05.811 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:09:05.811 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:09:05.823 +02:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2020-02-07 09:09:05.828 +02:00 [Information] Request finished in 17.7147ms 200 text/css
+===> 2020-02-07 09:09:05.829 +02:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2020-02-07 09:09:05.830 +02:00 [Information] Request finished in 19.3764ms 200 application/javascript
+===> 2020-02-07 09:09:05.833 +02:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2020-02-07 09:09:05.833 +02:00 [Information] Request finished in 22.9687ms 200 application/javascript
+===> 2020-02-07 09:09:05.963 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js.map  
+===> 2020-02-07 09:09:05.964 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:09:05.964 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:09:05.964 +02:00 [Debug] The request path "/swagger-ui-bundle.js.map" does not match an existing file
+===> 2020-02-07 09:09:05.964 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:09:05.965 +02:00 [Information] Request finished in 1.2243ms 404 
+===> 2020-02-07 09:09:06.066 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js.map  
+===> 2020-02-07 09:09:06.067 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:09:06.067 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:09:06.067 +02:00 [Debug] The request path "/swagger-ui-standalone-preset.js.map" does not match an existing file
+===> 2020-02-07 09:09:06.067 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:09:06.068 +02:00 [Information] Request finished in 1.6109ms 404 
+===> 2020-02-07 09:09:06.143 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2020-02-07 09:09:06.144 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:09:06.144 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:09:06.154 +02:00 [Information] Request finished in 10.2274ms 200 application/json;charset=utf-8
+===> 2020-02-07 09:10:08.247 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-07 09:10:08.248 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:10:08.251 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-07 09:10:08.258 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:10:08.258 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 09:10:08.258 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:10:08.258 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:10:08.259 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:10:08.259 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-07 09:10:08.259 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:10:08.259 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:10:08.261 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-07 09:10:08.262 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 2.898ms
+===> 2020-02-07 09:10:08.262 +02:00 [Information] Request finished in 15.2026ms 200 text/html
+===> 2020-02-07 09:28:39.131 +02:00 [Information] Starting web host
+===> 2020-02-07 09:28:39.225 +02:00 [Information] User profile is available. Using '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-07 09:28:39.246 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c.xml"'.
+===> 2020-02-07 09:28:39.270 +02:00 [Debug] Reading data from file '"C:\Users\ryanbAUL\AppData\Local\ASP.NET\DataProtection-Keys\key-85dd6547-d029-42a6-bc2b-e44fd17ef0c9.xml"'.
+===> 2020-02-07 09:28:39.275 +02:00 [Debug] Found key {37e1bd9b-2db5-4b01-b5bc-12dfe6f4ec1c}.
+===> 2020-02-07 09:28:39.278 +02:00 [Debug] Found key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9}.
+===> 2020-02-07 09:28:39.284 +02:00 [Debug] Considering key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} with expiration date 2020-05-07 06:38:06Z as default key.
+===> 2020-02-07 09:28:39.311 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-07 09:28:39.313 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-07 09:28:39.314 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-07 09:28:39.318 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-07 09:28:39.320 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-07 09:28:39.322 +02:00 [Debug] Using key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} as the default key.
+===> 2020-02-07 09:28:39.323 +02:00 [Debug] Key ring with default key {85dd6547-d029-42a6-bc2b-e44fd17ef0c9} was loaded during application startup.
+===> 2020-02-07 09:28:39.350 +02:00 [Information] Startup::Configure
+===> 2020-02-07 09:28:39.527 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-07 09:28:39.551 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-07 09:28:39.767 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-07 09:28:39.874 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-07 09:28:41.213 +02:00 [Information] Entity Framework Core "3.1.0" initialized '"IndividualTaxCalcAPIContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-07 09:28:41.454 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.672 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.677 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-07 09:28:41.683 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2020-02-07 09:28:41.692 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-07 09:28:41.715 +02:00 [Information] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-07 09:28:41.718 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.724 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.728 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-07 09:28:41.728 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2020-02-07 09:28:41.728 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.729 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.730 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-07 09:28:41.747 +02:00 [Information] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-07 09:28:41.748 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.749 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.786 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 09:28:41.786 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 09:28:41.786 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.786 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.787 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-07 09:28:41.789 +02:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-07 09:28:41.792 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 09:28:41.792 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.792 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.947 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-07 09:28:41.964 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 09:28:41.964 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 09:28:41.964 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.965 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.965 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 09:28:41.966 +02:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 09:28:41.970 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 09:28:41.970 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.970 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.972 +02:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    IndividualTaxCalcAPI.Entity.Context.IndividualTaxCalcAPIContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-07 09:28:41.972 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-07 09:28:41.972 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2020-02-07 09:28:41.972 +02:00 [Debug] Opening connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.972 +02:00 [Debug] Opened connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.972 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 09:28:41.974 +02:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-07 09:28:41.974 +02:00 [Debug] A data reader was disposed.
+===> 2020-02-07 09:28:41.974 +02:00 [Debug] Closing connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.974 +02:00 [Debug] Closed connection to database '"IndividualTaxCalc"' on server '"(localdb)\MSSQLLocalDB"'.
+===> 2020-02-07 09:28:41.975 +02:00 [Debug] '"IndividualTaxCalcAPIContext"' disposed.
+===> 2020-02-07 09:28:42.017 +02:00 [Debug] Loaded hosting startup assembly "IndividualTaxCalcAPI.Api"
+===> 2020-02-07 09:28:42.047 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-02-07 09:28:42.049 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-07 09:28:42.109 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:28:42.195 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-07 09:28:42.217 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:28:42.218 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 09:28:42.218 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:28:42.218 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:28:42.219 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:28:42.219 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-07 09:28:42.220 +02:00 [Debug] Executing controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:28:42.221 +02:00 [Debug] Executed controller factory for controller "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:28:42.225 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-07 09:28:42.250 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.v1.InfoController.ApiInfo (IndividualTaxCalcAPI.Api)" in 27.6411ms
+===> 2020-02-07 09:28:42.253 +02:00 [Information] Request finished in 208.0547ms 200 text/html
+===> 2020-02-07 09:28:43.161 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-02-07 09:28:43.177 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:28:43.178 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:43.195 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-07 09:28:43.196 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:43.198 +02:00 [Information] Request finished in 37.0561ms 404 
+===> 2020-02-07 09:28:46.095 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger  
+===> 2020-02-07 09:28:46.098 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:28:46.098 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:46.102 +02:00 [Information] Request finished in 7.1851ms 301 
+===> 2020-02-07 09:28:46.106 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html  
+===> 2020-02-07 09:28:46.107 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:28:46.107 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:46.238 +02:00 [Information] Request finished in 132.1567ms 200 text/html;charset=utf-8
+===> 2020-02-07 09:28:46.250 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2020-02-07 09:28:46.250 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2020-02-07 09:28:46.251 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:28:46.251 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:28:46.251 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2020-02-07 09:28:46.251 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:46.251 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:46.251 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:28:46.251 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:46.283 +02:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2020-02-07 09:28:46.283 +02:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2020-02-07 09:28:46.283 +02:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2020-02-07 09:28:46.291 +02:00 [Information] Request finished in 40.6695ms 200 application/javascript
+===> 2020-02-07 09:28:46.291 +02:00 [Information] Request finished in 41.1207ms 200 application/javascript
+===> 2020-02-07 09:28:46.291 +02:00 [Information] Request finished in 41.1037ms 200 text/css
+===> 2020-02-07 09:28:46.417 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js.map  
+===> 2020-02-07 09:28:46.419 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:28:46.420 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:46.420 +02:00 [Debug] The request path "/swagger-ui-bundle.js.map" does not match an existing file
+===> 2020-02-07 09:28:46.421 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:46.421 +02:00 [Information] Request finished in 4.0468ms 404 
+===> 2020-02-07 09:28:46.524 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js.map  
+===> 2020-02-07 09:28:46.524 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:28:46.524 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:46.525 +02:00 [Debug] The request path "/swagger-ui-standalone-preset.js.map" does not match an existing file
+===> 2020-02-07 09:28:46.525 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:46.525 +02:00 [Information] Request finished in 1.3536ms 404 
+===> 2020-02-07 09:28:46.598 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2020-02-07 09:28:46.598 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:28:46.598 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:28:46.726 +02:00 [Information] Request finished in 127.8386ms 200 application/json;charset=utf-8
+===> 2020-02-07 09:29:00.344 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html  
+===> 2020-02-07 09:29:00.345 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:29:00.345 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:29:00.347 +02:00 [Information] Request finished in 3.2964ms 200 text/html;charset=utf-8
+===> 2020-02-07 09:31:05.338 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44341/api/Token  0
+===> 2020-02-07 09:31:05.339 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:31:05.339 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Token"'
+===> 2020-02-07 09:31:05.356 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Token\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:31:05.356 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 09:31:05.356 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:31:05.356 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:31:05.356 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:31:05.356 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:31:05.357 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:31:09.139 +02:00 [Debug] Executed controller factory for controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api")
+===> 2020-02-07 09:31:09.152 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-02-07 09:31:09.165 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' using the name '""' in request data ...
+===> 2020-02-07 09:31:09.167 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type 'null'.
+===> 2020-02-07 09:31:09.167 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type 'null'.
+===> 2020-02-07 09:31:09.167 +02:00 [Debug] No input formatter was found to support the content type 'null' for use with the [FromBody] attribute.
+===> 2020-02-07 09:31:09.169 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:31:09.170 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:31:09.170 +02:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-02-07 09:31:09.174 +02:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-07 09:31:09.179 +02:00 [Debug] Request was short circuited at action filter '"Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"'.
+===> 2020-02-07 09:31:09.182 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-02-07 09:31:09.186 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-02-07 09:31:09.187 +02:00 [Debug] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json", "application/problem+xml"]'.
+===> 2020-02-07 09:31:09.189 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/problem+json"' to write the response.
+===> 2020-02-07 09:31:09.189 +02:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+===> 2020-02-07 09:31:09.217 +02:00 [Information] Executed action "JWT.Controllers.TokenController.Create (IndividualTaxCalcAPI.Api)" in 3860.6684ms
+===> 2020-02-07 09:31:09.219 +02:00 [Information] Request finished in 3882.2635ms 415 application/problem+json; charset=utf-8
+===> 2020-02-07 09:31:42.643 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Account  
+===> 2020-02-07 09:31:42.644 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:31:42.644 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-02-07 09:31:42.646 +02:00 [Debug] Action '"IndividualTaxCalcAPI.Api.Controllers.AccountController.Create (IndividualTaxCalcAPI.Api)"' with id '"eade2935-b0b9-4b62-b463-1f39fa76ad8d"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 09:31:42.649 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IndividualTaxCalcAPI.Domain.AccountViewModel] GetAll()" on controller "IndividualTaxCalcAPI.Api.Controllers.AccountController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:31:42.649 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-07 09:31:42.649 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:31:42.649 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:31:42.649 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:31:42.649 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:31:42.656 +02:00 [Information] Authorization failed.
+===> 2020-02-07 09:31:42.656 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-02-07 09:31:42.657 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-02-07 09:31:42.661 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-02-07 09:31:42.662 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.AccountController.GetAll (IndividualTaxCalcAPI.Api)" in 12.3518ms
+===> 2020-02-07 09:31:42.662 +02:00 [Information] Request finished in 19.551ms 401 
+===> 2020-02-07 09:32:00.573 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Account  
+===> 2020-02-07 09:32:00.574 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:32:00.574 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-02-07 09:32:00.576 +02:00 [Debug] Action '"IndividualTaxCalcAPI.Api.Controllers.AccountController.Create (IndividualTaxCalcAPI.Api)"' with id '"eade2935-b0b9-4b62-b463-1f39fa76ad8d"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 09:32:00.577 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IndividualTaxCalcAPI.Domain.AccountViewModel] GetAll()" on controller "IndividualTaxCalcAPI.Api.Controllers.AccountController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:32:00.577 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-07 09:32:00.578 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:32:00.578 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:32:00.578 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:32:00.578 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:32:00.579 +02:00 [Information] Authorization failed.
+===> 2020-02-07 09:32:00.579 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-02-07 09:32:00.579 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-02-07 09:32:00.580 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-02-07 09:32:00.580 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.AccountController.GetAll (IndividualTaxCalcAPI.Api)" in 1.5772ms
+===> 2020-02-07 09:32:00.580 +02:00 [Information] Request finished in 7.6306ms 401 
+===> 2020-02-07 09:32:13.190 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Account  
+===> 2020-02-07 09:32:13.192 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:32:13.192 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-02-07 09:32:13.194 +02:00 [Debug] Action '"IndividualTaxCalcAPI.Api.Controllers.AccountController.Create (IndividualTaxCalcAPI.Api)"' with id '"eade2935-b0b9-4b62-b463-1f39fa76ad8d"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 09:32:13.200 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IndividualTaxCalcAPI.Domain.AccountViewModel] GetAll()" on controller "IndividualTaxCalcAPI.Api.Controllers.AccountController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:32:13.202 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-07 09:32:13.203 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:32:13.204 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:32:13.204 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:32:13.204 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:32:13.206 +02:00 [Information] Authorization failed.
+===> 2020-02-07 09:32:13.206 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-02-07 09:32:13.207 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-02-07 09:32:13.207 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-02-07 09:32:13.207 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.AccountController.GetAll (IndividualTaxCalcAPI.Api)" in 3.019ms
+===> 2020-02-07 09:32:13.208 +02:00 [Information] Request finished in 18.391ms 401 
+===> 2020-02-07 09:32:42.961 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Token/Create  
+===> 2020-02-07 09:32:42.962 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:32:42.962 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:32:42.962 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-07 09:32:42.963 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:32:42.963 +02:00 [Information] Request finished in 2.1242ms 404 
+===> 2020-02-07 09:33:32.548 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Token  
+===> 2020-02-07 09:33:32.555 +02:00 [Information] "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token: 12345678910111213141516"
+===> 2020-02-07 09:33:32.556 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Token"'
+===> 2020-02-07 09:33:32.556 +02:00 [Debug] Action '"JWT.Controllers.TokenController.Create (IndividualTaxCalcAPI.Api)"' with id '"406f87a0-3178-4a2a-9442-348353932e5b"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 09:33:32.558 +02:00 [Debug] No actions matched the current request. Route values: []
+===> 2020-02-07 09:33:32.558 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:33:32.559 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-07 09:33:32.564 +02:00 [Information] Request did not specify a service API version, but multiple candidate actions were found. Candidate actions: "JWT.Controllers.TokenController.Create (IndividualTaxCalcAPI.Api)"
+===> 2020-02-07 09:33:32.570 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-02-07 09:33:32.570 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-02-07 09:33:32.570 +02:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2020-02-07 09:33:32.571 +02:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2020-02-07 09:33:32.571 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2020-02-07 09:33:32.571 +02:00 [Information] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=4.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=4.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]"'.
+===> 2020-02-07 09:33:32.580 +02:00 [Information] Request finished in 32.2088ms 405 application/json; charset=utf-8
+===> 2020-02-07 09:33:48.306 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Account  
+===> 2020-02-07 09:33:48.307 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:33:48.308 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-02-07 09:33:48.308 +02:00 [Debug] Action '"IndividualTaxCalcAPI.Api.Controllers.AccountController.Create (IndividualTaxCalcAPI.Api)"' with id '"eade2935-b0b9-4b62-b463-1f39fa76ad8d"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-07 09:33:48.310 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IndividualTaxCalcAPI.Domain.AccountViewModel] GetAll()" on controller "IndividualTaxCalcAPI.Api.Controllers.AccountController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:33:48.310 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-07 09:33:48.311 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:33:48.311 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:33:48.312 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:33:48.312 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:33:48.313 +02:00 [Information] Authorization failed.
+===> 2020-02-07 09:33:48.313 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-02-07 09:33:48.314 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-02-07 09:33:48.315 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-02-07 09:33:48.315 +02:00 [Information] Executed action "IndividualTaxCalcAPI.Api.Controllers.AccountController.GetAll (IndividualTaxCalcAPI.Api)" in 2.5288ms
+===> 2020-02-07 09:33:48.318 +02:00 [Information] Request finished in 11.4363ms 401 
+===> 2020-02-07 09:35:16.950 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/  
+===> 2020-02-07 09:35:16.954 +02:00 [Information] "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token: 12345678910111213141516"
+===> 2020-02-07 09:35:16.955 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:35:16.956 +02:00 [Debug] The request path "" does not match the path filter
+===> 2020-02-07 09:35:16.956 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:35:16.956 +02:00 [Information] Request finished in 6.1809ms 404 
+===> 2020-02-07 09:35:52.921 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v2/swagger.json  
+===> 2020-02-07 09:35:52.921 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:35:52.922 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:35:52.928 +02:00 [Information] Request finished in 6.1687ms 200 application/json;charset=utf-8
+===> 2020-02-07 09:36:10.280 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2020-02-07 09:36:10.281 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:36:10.281 +02:00 [Debug] Request did not match any routes
+===> 2020-02-07 09:36:10.303 +02:00 [Information] Request finished in 22.4559ms 200 application/json;charset=utf-8
+===> 2020-02-07 09:38:18.910 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44341/api/Token application/json-patch+json 47
+===> 2020-02-07 09:38:18.917 +02:00 [Debug] The request has an origin header: '"http://localhost:44341"'.
+===> 2020-02-07 09:38:18.917 +02:00 [Information] CORS policy execution successful.
+===> 2020-02-07 09:38:18.919 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-07 09:38:18.920 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Token"'
+===> 2020-02-07 09:38:18.921 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Token\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api").
+===> 2020-02-07 09:38:18.921 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-07 09:38:18.921 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-07 09:38:18.921 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:38:18.921 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-07 09:38:18.921 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-07 09:38:18.922 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.TokenController" ("IndividualTaxCalcAPI.Api")

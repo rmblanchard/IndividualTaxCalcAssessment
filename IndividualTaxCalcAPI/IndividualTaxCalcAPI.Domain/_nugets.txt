@@ -1,0 +1,14 @@
+﻿
+https://www.nuget.org/packages/automapper/
+PM> Install-Package AutoMapper
+
+
+/// Designed by AnaSoft Inc. 2019
+/// http://www.anasoft.net/apincore 
+/// 
+/// Download full version from http://www.anasoft.net/apincore with these added features:
+/// -XUnit integration tests project (update the connection string and run tests)
+/// -API Postman tests as json file
+/// -JWT and IS4 authentication tests
+/// -T4 for smart code generation for new entities views, services, controlers and tests 
+
